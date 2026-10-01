@@ -1,7 +1,6 @@
-```jsx
-import React from 'react';
-import { Utensils } from 'lucide-react';
-import GuestCommentForm from './components/GuestCommentForm';
+import React from "react";
+import { Utensils } from "lucide-react";
+import GuestCommentForm from "./components/GuestCommentForm";
 
 export default function App() {
   return (
@@ -23,10 +22,7 @@ export default function App() {
         <div className="hero">
           <span className="eyebrow">YOUR VOICE MATTERS</span>
           <h1>Bagaimana pengalaman Anda?</h1>
-          <p>
-            Luangkan waktu sebentar untuk berbagi pengalaman.
-            Setiap masukan dari Anda sangat berarti bagi kami.
-          </p>
+          <p>Luangkan waktu sebentar untuk berbagi pengalaman. Setiap masukan dari Anda sangat berarti bagi kami.</p>
         </div>
 
         <GuestCommentForm />
@@ -40,4 +36,3 @@ export default function App() {
     </main>
   );
 }
-```;
