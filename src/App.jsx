@@ -1,3 +1,5 @@
+```jsx
+import React from 'react';
 import { Utensils } from 'lucide-react';
 import GuestCommentForm from './components/GuestCommentForm';
 
@@ -38,3 +40,4 @@ export default function App() {
     </main>
   );
 }
+```;
